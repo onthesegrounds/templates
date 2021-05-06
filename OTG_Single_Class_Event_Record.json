@@ -1,0 +1,882 @@
+{
+    "o:label": "OTG Single Class Event Record",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "customvocab:1",
+                    "label": "Event Type"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "type",
+            "label": "Event Type"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "keywords",
+            "label": "Keywords"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "customvocab:2",
+                    "label": "Action Status"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "actionStatus",
+            "label": "Action Status"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "numeric:timestamp",
+                    "label": "Timestamp"
+                },
+                {
+                    "name": "numeric:interval",
+                    "label": "Interval"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "date",
+            "label": "Date"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "customvocab:3",
+                    "label": "Certainty"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "dateCertainty",
+            "label": "Date Certainty"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "location",
+            "label": "Location"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "cause",
+            "label": "Cause"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "result",
+            "label": "Outcome"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "source",
+            "label": "Source"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "relatedEvent",
+            "label": "Related Event"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "principal",
+            "label": "Primary Participant"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "customvocab:4",
+                    "label": "Freedom Status"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "freedomStatus",
+            "label": "Freedom Status"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "enslaver",
+            "label": "Enslaver"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "numeric:integer",
+                    "label": "Integer"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "age",
+            "label": "Age"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "author",
+            "label": "Author"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "participant",
+            "label": "Additional Participant"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "witness",
+            "label": "Witness"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "officiator",
+            "label": "Officiator"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "buyer",
+            "label": "Buyer"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "seller",
+            "label": "Seller"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "leaser",
+            "label": "Leaser"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "perpetrator",
+            "label": "Perpetrator"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "permissionFrom",
+            "label": "Permission From"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "organization",
+            "label": "Organization"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "numeric:duration",
+                    "label": "Duration"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "duration",
+            "label": "Duration"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "currency",
+            "label": "Currency"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "numeric:integer",
+                    "label": "Integer"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "price",
+            "label": "Price"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "priceComponent",
+            "label": "Price Component"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "typeOfGood",
+            "label": "Good or Service"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "taskPerformed",
+            "label": "Task Performed"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "contractTerms",
+            "label": "Contract Terms"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "exchangedFor",
+            "label": "Exchanged For"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "toLocation",
+            "label": "Destination"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "fromLocation",
+            "label": "Origin"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "signOrSymptom",
+            "label": "Symptom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "possibleTreatment",
+            "label": "Treatment"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "petitionerAgainst",
+            "label": "Petitioner"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "defendantAgainst",
+            "label": "Defendant"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "attorneyFor",
+            "label": "Attorney For"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "attorneyAgainst",
+            "label": "Attorney Against"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "judge",
+            "label": "Judge"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/dcmitype\/",
+        "vocabulary_label": "Dublin Core Type",
+        "local_name": "Event",
+        "label": "Event"
+    },
+    "o:title_property": {
+        "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+        "vocabulary_label": "OTGEvents",
+        "local_name": "title",
+        "label": "Title"
+    },
+    "o:description_property": {
+        "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+        "vocabulary_label": "OTGEvents",
+        "local_name": "description",
+        "label": "Description"
+    }
+}
