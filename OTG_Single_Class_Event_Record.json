@@ -150,6 +150,10 @@
                 {
                     "name": "literal",
                     "label": "Text"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
@@ -166,6 +170,10 @@
                 {
                     "name": "literal",
                     "label": "Text"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",

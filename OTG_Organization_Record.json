@@ -4,7 +4,7 @@
         {
             "o:alternate_label": "Name",
             "o:alternate_comment": null,
-            "o:is_required": false,
+            "o:is_required": true,
             "o:is_private": false,
             "data_types": [
                 {

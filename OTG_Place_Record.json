@@ -2,7 +2,7 @@
     "o:label": "OTG Place Record",
     "o:resource_template_property": [
         {
-            "o:alternate_label": null,
+            "o:alternate_label": "Name",
             "o:alternate_comment": null,
             "o:is_required": true,
             "o:is_private": false,

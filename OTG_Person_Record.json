@@ -202,6 +202,26 @@
             ],
             "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
             "vocabulary_label": "OTGEvents",
+            "local_name": "spouseOf",
+            "label": "Spouse of"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
             "local_name": "parentOf",
             "label": "Parent of"
         },
