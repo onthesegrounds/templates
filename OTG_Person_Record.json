@@ -166,7 +166,7 @@
             ],
             "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
             "vocabulary_label": "OTGEvents",
-            "local_name": "occupation",
+            "local_name": "hasOccupation",
             "label": "Occupation"
         },
         {
