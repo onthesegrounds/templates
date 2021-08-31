@@ -1,0 +1,147 @@
+EVENT TYPES (URI)
+https://www.onthesegrounds.org/api/items/463 Commercial transaction
+https://www.onthesegrounds.org/api/items/464 Commercial transaction: Enslaved hire
+https://www.onthesegrounds.org/api/items/465 Commercial transaction: Enslaved loan
+https://www.onthesegrounds.org/api/items/466 Commercial transaction: Services
+https://www.onthesegrounds.org/api/items/467 Commercial transaction: Small goods
+https://www.onthesegrounds.org/api/items/468 Education
+https://www.onthesegrounds.org/api/items/469 Freedom status transaction
+https://www.onthesegrounds.org/api/items/470 Freedom status transaction: Dispute
+https://www.onthesegrounds.org/api/items/471 Freedom status transaction: Emancipation
+https://www.onthesegrounds.org/api/items/472 Freedom status transaction: Enslavement
+https://www.onthesegrounds.org/api/items/473 Freedom status transaction: Exchange
+https://www.onthesegrounds.org/api/items/474 Freedom status transaction: Manumission
+https://www.onthesegrounds.org/api/items/475 Freedom status transaction: Purchase
+https://www.onthesegrounds.org/api/items/476 Freedom status transaction: Sale
+https://www.onthesegrounds.org/api/items/477 Freedom status transaction: Transfer
+https://www.onthesegrounds.org/api/items/478 Health
+https://www.onthesegrounds.org/api/items/479 Health: Childbirth
+https://www.onthesegrounds.org/api/items/480 Health: Illness
+https://www.onthesegrounds.org/api/items/481 Health: Injury
+https://www.onthesegrounds.org/api/items/482 Health: Medical treatment
+https://www.onthesegrounds.org/api/items/483 Health: Pregnancy
+https://www.onthesegrounds.org/api/items/484 Labor
+https://www.onthesegrounds.org/api/items/485 Labor: Agricultural
+https://www.onthesegrounds.org/api/items/486 Labor: Domestic
+https://www.onthesegrounds.org/api/items/487 Labor: Midwifery
+https://www.onthesegrounds.org/api/items/488 Labor: Skilled
+https://www.onthesegrounds.org/api/items/489 Legal
+https://www.onthesegrounds.org/api/items/490 Legal: Civil case
+https://www.onthesegrounds.org/api/items/491 Legal: Criminal case
+https://www.onthesegrounds.org/api/items/492 Legal: Dowry
+https://www.onthesegrounds.org/api/items/493 Legal: Freedom petition
+https://www.onthesegrounds.org/api/items/494 Legal: Manumission filing
+https://www.onthesegrounds.org/api/items/495 Legal: Probate
+https://www.onthesegrounds.org/api/items/496 Legal: Tax filing
+https://www.onthesegrounds.org/api/items/497 Legal: Will
+https://www.onthesegrounds.org/api/items/498 Life-course
+https://www.onthesegrounds.org/api/items/499 Life-course: Birth
+https://www.onthesegrounds.org/api/items/500 Life-course: Burial
+https://www.onthesegrounds.org/api/items/501 Life-course: Death
+https://www.onthesegrounds.org/api/items/502 Life-course: Marriage
+https://www.onthesegrounds.org/api/items/503 Membership or participation
+https://www.onthesegrounds.org/api/items/504 Membership or participation: Fraternal organization
+https://www.onthesegrounds.org/api/items/505 Membership or participation: Military
+https://www.onthesegrounds.org/api/items/506 Mention
+https://www.onthesegrounds.org/api/items/507 Mention: Disappearance
+https://www.onthesegrounds.org/api/items/508 Mention: Inventory
+https://www.onthesegrounds.org/api/items/509 Narrative
+https://www.onthesegrounds.org/api/items/510 Narrative: Autobiography
+https://www.onthesegrounds.org/api/items/511 Narrative: Testimony
+https://www.onthesegrounds.org/api/items/512 Provisions
+https://www.onthesegrounds.org/api/items/513 Provisions: Clothing
+https://www.onthesegrounds.org/api/items/514 Provisions: Food
+https://www.onthesegrounds.org/api/items/515 Provisions: Housing
+https://www.onthesegrounds.org/api/items/516 Provisions: Supplies
+https://www.onthesegrounds.org/api/items/517 Religious
+https://www.onthesegrounds.org/api/items/518 Religious: Baptism
+https://www.onthesegrounds.org/api/items/519 Religious: Communion
+https://www.onthesegrounds.org/api/items/520 Religious: Confession
+https://www.onthesegrounds.org/api/items/521 Religious: Last Rites
+https://www.onthesegrounds.org/api/items/522 Religious: Marriage Sacrament
+https://www.onthesegrounds.org/api/items/523 Religious: Music
+https://www.onthesegrounds.org/api/items/524 Religious: Ordination
+https://www.onthesegrounds.org/api/items/525 Religious: Preaching
+https://www.onthesegrounds.org/api/items/526 Resistance
+https://www.onthesegrounds.org/api/items/527 Resistance: Appeal
+https://www.onthesegrounds.org/api/items/528 Resistance: Defense
+https://www.onthesegrounds.org/api/items/529 Resistance: Freedom seeking
+https://www.onthesegrounds.org/api/items/530 Resistance: Property destruction
+https://www.onthesegrounds.org/api/items/531 Resistance: Work slowdown or stoppage
+https://www.onthesegrounds.org/api/items/532 Travel
+https://www.onthesegrounds.org/api/items/533 Travel: Importation
+https://www.onthesegrounds.org/api/items/534 Travel: Relocation
+https://www.onthesegrounds.org/api/items/535 Travel: Temporary
+https://www.onthesegrounds.org/api/items/536 Violence
+https://www.onthesegrounds.org/api/items/537 Violence: Capture
+https://www.onthesegrounds.org/api/items/538 Violence: Harassment
+https://www.onthesegrounds.org/api/items/539 Violence: Jailing
+https://www.onthesegrounds.org/api/items/540 Violence: Physical assault
+https://www.onthesegrounds.org/api/items/541 Violence: Postmortem abuse
+https://www.onthesegrounds.org/api/items/542 Violence: Punishment
+https://www.onthesegrounds.org/api/items/543 Violence: Sexual assault
+
+ACTION STATUS (URI)
+https://www.onthesegrounds.org/api/items/546 Completed
+https://www.onthesegrounds.org/api/items/547 Failed
+https://www.onthesegrounds.org/api/items/548 Potential
+https://www.onthesegrounds.org/api/items/549 Unknown
+
+CERTAINTY (URI)
+https://www.onthesegrounds.org/api/items/550 Approximate
+https://www.onthesegrounds.org/api/items/551 Inferred
+https://www.onthesegrounds.org/api/items/552 Questionable
+
+FREEDOM STATUS (URI)
+https://www.onthesegrounds.org/api/items/553 Enslaved
+https://www.onthesegrounds.org/api/items/554 Free
+https://www.onthesegrounds.org/api/items/555 Transition
+https://www.onthesegrounds.org/api/items/556 Unknown
+
+SEX (URI)
+https://lod.enslaved.org/wiki/Q120 Intersex
+https://lod.enslaved.org/wiki/Q294 Female
+https://lod.enslaved.org/wiki/Q296 Male
+
+OCCUPATION (URI)
+https://lod.enslaved.org/wiki/Q87 Agriculture, Forestry, and/or Livestock 
+https://lod.enslaved.org/wiki/Q88 Domestic Service 
+https://lod.enslaved.org/wiki/Q90 Police and/or Military 
+https://lod.enslaved.org/wiki/Q91 Industry 
+https://lod.enslaved.org/wiki/Q92 Maritime 
+https://lod.enslaved.org/wiki/Q93 Marketing and Trading 
+https://lod.enslaved.org/wiki/Q94 Crafts and Trades 
+https://lod.enslaved.org/wiki/Q95 Healthcare and Medical 
+https://lod.enslaved.org/wiki/Q96 Religious 
+https://lod.enslaved.org/wiki/Q97 Legal 
+https://lod.enslaved.org/wiki/Q98 Teaching 
+https://lod.enslaved.org/wiki/Q99 Arts and Entertainment 
+https://lod.enslaved.org/wiki/Q100 Management 
+https://lod.enslaved.org/wiki/Q101 Other Occupation 
+https://lod.enslaved.org/wiki/Q102 Banking and Commerce 
+https://lod.enslaved.org/wiki/Q104 Fishing, Hunting, and/or Gathering 
+https://lod.enslaved.org/wiki/Q105 Writing and/or Publishing 
+https://lod.enslaved.org/wiki/Q106 Landowning 
+https://lod.enslaved.org/wiki/Q107 Slave Trade 
+https://lod.enslaved.org/wiki/Q115 Government 
+https://lod.enslaved.org/wiki/Q116 Crime 
+https://lod.enslaved.org/wiki/Q121 Sex Work 
+
+PLACE TYPE (URI)
+https://lod.enslaved.org/wiki/Q118 Cemetery or Burial Ground 
+https://lod.enslaved.org/wiki/Q119 Maroon Community ‎ 
+https://lod.enslaved.org/wiki/Q123 Domicile ‎ 
+https://lod.enslaved.org/wiki/Q176 Court 
+https://lod.enslaved.org/wiki/Q194 City, Town, or Village  ‎ 
+https://lod.enslaved.org/wiki/Q213 Province  ‎ 
+https://lod.enslaved.org/wiki/Q222 Country  ‎ 
+https://lod.enslaved.org/wiki/Q233 Region  
+https://lod.enslaved.org/wiki/Q258 Other Place Type ‎ 
+https://lod.enslaved.org/wiki/Q284 Worship Site  ‎ 
+https://lod.enslaved.org/wiki/Q321 Continent ‎ 
+https://lod.enslaved.org/wiki/Q322 County or Parish  ‎ 
+https://lod.enslaved.org/wiki/Q346 Port  ‎ 
+https://lod.enslaved.org/wiki/Q347 Plantation  ‎ 
+https://lod.enslaved.org/wiki/Q447 Coordinate 
+College or University
+
