@@ -143,5 +143,10 @@ https://lod.enslaved.org/wiki/Q322 County or Parish  ‎
 https://lod.enslaved.org/wiki/Q346 Port  ‎ 
 https://lod.enslaved.org/wiki/Q347 Plantation  ‎ 
 https://lod.enslaved.org/wiki/Q447 Coordinate 
-College or University
 
+Proposed additions:
+https://www.onthesegrounds.org/api/items/558 College or university: Administration building 
+https://www.onthesegrounds.org/api/items/559 College or university: Dormitory 
+https://www.onthesegrounds.org/api/items/560 College or university: Instructional building 
+https://www.onthesegrounds.org/api/items/561 College or university: Quadrangle 
+https://www.onthesegrounds.org/api/items/562 College or university: Sports field
