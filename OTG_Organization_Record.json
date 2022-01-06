@@ -80,13 +80,77 @@
             "vocabulary_label": "OTGEvents",
             "local_name": "sameAs",
             "label": "Same As"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "isPartOf",
+            "label": "Is Part of"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "hasPart",
+            "label": "Has Part"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "bibliographicCitation",
+            "label": "BibliographicCitation"
         }
     ],
     "o:resource_class": {
-        "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
-        "vocabulary_label": "Dublin Core",
-        "local_name": "AgentClass",
-        "label": "Agent Class"
+        "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+        "vocabulary_label": "OTGEvents",
+        "local_name": "Agent",
+        "label": "Agent"
     },
     "o:title_property": {
         "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",

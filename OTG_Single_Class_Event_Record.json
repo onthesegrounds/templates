@@ -252,6 +252,22 @@
             "o:is_private": false,
             "data_types": [
                 {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "primaryParticipantDescription",
+            "label": "Primary Participant Description"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
                     "name": "customvocab:4",
                     "label": "Freedom Status"
                 }
@@ -870,8 +886,8 @@
         }
     ],
     "o:resource_class": {
-        "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/dcmitype\/",
-        "vocabulary_label": "Dublin Core Type",
+        "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+        "vocabulary_label": "OTGEvents",
         "local_name": "Event",
         "label": "Event"
     },

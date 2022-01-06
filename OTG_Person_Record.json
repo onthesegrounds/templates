@@ -144,29 +144,13 @@
             "o:is_private": false,
             "data_types": [
                 {
-                    "name": "literal",
-                    "label": "Text"
-                }
-            ],
-            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
-            "vocabulary_label": "OTGEvents",
-            "local_name": "race",
-            "label": "Race or Color"
-        },
-        {
-            "o:alternate_label": null,
-            "o:alternate_comment": null,
-            "o:is_required": false,
-            "o:is_private": false,
-            "data_types": [
-                {
                     "name": "customvocab:19",
                     "label": "Occupation (Enslaved)"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
             "vocabulary_label": "OTGEvents",
-            "local_name": "hasOccupation",
+            "local_name": "occupation",
             "label": "Occupation"
         },
         {
@@ -315,11 +299,35 @@
             "vocabulary_label": "OTGEvents",
             "local_name": "sameAs",
             "label": "Same As"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "bibliographicCitation",
+            "label": "BibliographicCitation"
         }
     ],
     "o:resource_class": {
-        "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
-        "vocabulary_label": "Dublin Core",
+        "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+        "vocabulary_label": "OTGEvents",
         "local_name": "Agent",
         "label": "Agent"
     },

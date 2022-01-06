@@ -5,6 +5,7 @@ https://www.onthesegrounds.org/api/items/465 Commercial transaction: Enslaved lo
 https://www.onthesegrounds.org/api/items/466 Commercial transaction: Services
 https://www.onthesegrounds.org/api/items/467 Commercial transaction: Small goods
 https://www.onthesegrounds.org/api/items/468 Education
+https://www.onthesegrounds.org/api/items/583 Education: Teaching
 https://www.onthesegrounds.org/api/items/469 Freedom status transaction
 https://www.onthesegrounds.org/api/items/470 Freedom status transaction: Dispute
 https://www.onthesegrounds.org/api/items/471 Freedom status transaction: Emancipation
@@ -76,6 +77,7 @@ https://www.onthesegrounds.org/api/items/536 Violence
 https://www.onthesegrounds.org/api/items/537 Violence: Capture
 https://www.onthesegrounds.org/api/items/538 Violence: Harassment
 https://www.onthesegrounds.org/api/items/539 Violence: Jailing
+https://www.onthesegrounds.org/api/items/584 Violence: Perpetrating
 https://www.onthesegrounds.org/api/items/540 Violence: Physical assault
 https://www.onthesegrounds.org/api/items/541 Violence: Postmortem abuse
 https://www.onthesegrounds.org/api/items/542 Violence: Punishment
