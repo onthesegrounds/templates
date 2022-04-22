@@ -12,7 +12,6 @@ https://www.onthesegrounds.org/api/items/471 Freedom status transaction: Emancip
 https://www.onthesegrounds.org/api/items/472 Freedom status transaction: Enslavement
 https://www.onthesegrounds.org/api/items/473 Freedom status transaction: Exchange
 https://www.onthesegrounds.org/api/items/474 Freedom status transaction: Manumission
-https://www.onthesegrounds.org/api/items/475 Freedom status transaction: Purchase
 https://www.onthesegrounds.org/api/items/476 Freedom status transaction: Sale
 https://www.onthesegrounds.org/api/items/477 Freedom status transaction: Transfer
 https://www.onthesegrounds.org/api/items/478 Health
@@ -40,6 +39,8 @@ https://www.onthesegrounds.org/api/items/499 Life-course: Birth
 https://www.onthesegrounds.org/api/items/500 Life-course: Burial
 https://www.onthesegrounds.org/api/items/501 Life-course: Death
 https://www.onthesegrounds.org/api/items/502 Life-course: Marriage
+https://www.onthesegrounds.org/api/items/585 Life-course: Parenthood
+https://www.onthesegrounds.org/api/items/586 Life-course: Grandparenthood
 https://www.onthesegrounds.org/api/items/503 Membership or participation
 https://www.onthesegrounds.org/api/items/504 Membership or participation: Fraternal organization
 https://www.onthesegrounds.org/api/items/505 Membership or participation: Military
@@ -106,28 +107,37 @@ https://lod.enslaved.org/wiki/Q294 Female
 https://lod.enslaved.org/wiki/Q296 Male
 
 OCCUPATION (URI)
-https://lod.enslaved.org/wiki/Q87 Agriculture, Forestry, and/or Livestock 
-https://lod.enslaved.org/wiki/Q88 Domestic Service 
-https://lod.enslaved.org/wiki/Q90 Police and/or Military 
-https://lod.enslaved.org/wiki/Q91 Industry 
-https://lod.enslaved.org/wiki/Q92 Maritime 
-https://lod.enslaved.org/wiki/Q93 Marketing and Trading 
-https://lod.enslaved.org/wiki/Q94 Crafts and Trades 
-https://lod.enslaved.org/wiki/Q95 Healthcare and Medical 
-https://lod.enslaved.org/wiki/Q96 Religious 
-https://lod.enslaved.org/wiki/Q97 Legal 
-https://lod.enslaved.org/wiki/Q98 Teaching 
+https://lod.enslaved.org/wiki/Q87 Agriculture, Husbandry, and Forestry
 https://lod.enslaved.org/wiki/Q99 Arts and Entertainment 
-https://lod.enslaved.org/wiki/Q100 Management 
-https://lod.enslaved.org/wiki/Q101 Other Occupation 
-https://lod.enslaved.org/wiki/Q102 Banking and Commerce 
-https://lod.enslaved.org/wiki/Q104 Fishing, Hunting, and/or Gathering 
-https://lod.enslaved.org/wiki/Q105 Writing and/or Publishing 
+https://lod.enslaved.org/wiki/Q468 Banking, Insurance, and Commerce
+https://lod.enslaved.org/wiki/Q94 Crafts and Trades 
+https://lod.enslaved.org/wiki/Q88 Domestic Service 
+https://lod.enslaved.org/wiki/Q104 Fishing, Gathering, and Hunting
+https://lod.enslaved.org/wiki/Q115 Government
+https://lod.enslaved.org/wiki/Q467 Hiring
+https://lod.enslaved.org/wiki/Q91 Industry 
 https://lod.enslaved.org/wiki/Q106 Landowning 
+https://lod.enslaved.org/wiki/Q97 Legal 
+https://lod.enslaved.org/wiki/Q102 Manual Labor
+https://lod.enslaved.org/wiki/Q92 Maritime 
+https://lod.enslaved.org/wiki/Q93 Marketing, Retail, and Trading 
+https://lod.enslaved.org/wiki/Q95 Medical and Funerary
+https://lod.enslaved.org/wiki/Q447 Military and Militia
+https://lod.enslaved.org/wiki/Q90 Police and Corrections
+https://lod.enslaved.org/wiki/Q96 Religious 
 https://lod.enslaved.org/wiki/Q107 Slave Trade 
-https://lod.enslaved.org/wiki/Q115 Government 
-https://lod.enslaved.org/wiki/Q116 Crime 
-https://lod.enslaved.org/wiki/Q121 Sex Work 
+https://lod.enslaved.org/wiki/Q98 Teaching 
+https://lod.enslaved.org/wiki/Q116 Transportation
+https://lod.enslaved.org/wiki/Q105 Writing and/or Publishing 
+https://lod.enslaved.org/wiki/Q101 Other Occupation 
+
+[Terms without endpoints]
+Abolitionism
+Crime
+Midwifery and Wet-nursing
+Public Works
+Sex Work 
+Supervision 
 
 PLACE TYPE (URI)
 https://lod.enslaved.org/wiki/Q118 Cemetery or Burial Ground 
@@ -139,14 +149,14 @@ https://lod.enslaved.org/wiki/Q213 Province  ‎
 https://lod.enslaved.org/wiki/Q222 Country  ‎ 
 https://lod.enslaved.org/wiki/Q233 Region  
 https://lod.enslaved.org/wiki/Q258 Other Place Type ‎ 
-https://lod.enslaved.org/wiki/Q284 Worship Site  ‎ 
+https://lod.enslaved.org/wiki/Q284 Religious Site  ‎ 
 https://lod.enslaved.org/wiki/Q321 Continent ‎ 
 https://lod.enslaved.org/wiki/Q322 County or Parish  ‎ 
 https://lod.enslaved.org/wiki/Q346 Port  ‎ 
-https://lod.enslaved.org/wiki/Q347 Plantation  ‎ 
+https://lod.enslaved.org/wiki/Q347 Plantation, Estate, or Ranch  ‎ 
 https://lod.enslaved.org/wiki/Q447 Coordinate 
-
-Proposed additions:
+https://lod.enslaved.org/wiki/Q13478 Hospital
+https://lod.enslaved.org/wiki/Q124 Unspecified Place Type
 https://www.onthesegrounds.org/api/items/558 College or university: Administration building 
 https://www.onthesegrounds.org/api/items/559 College or university: Dormitory 
 https://www.onthesegrounds.org/api/items/560 College or university: Instructional building 
