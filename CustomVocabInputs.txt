@@ -20,27 +20,35 @@ https://www.onthesegrounds.org/api/items/480 Health: Illness
 https://www.onthesegrounds.org/api/items/481 Health: Injury
 https://www.onthesegrounds.org/api/items/482 Health: Medical treatment
 https://www.onthesegrounds.org/api/items/483 Health: Pregnancy
+https://www.onthesegrounds.org/api/items/587 Intra-community Conflict
+https://www.onthesegrounds.org/api/items/588 Intra-community Conflict: Physical altercation
+https://www.onthesegrounds.org/api/items/589 Intra-community Conflict: Theft
+https://www.onthesegrounds.org/api/items/590 Intra-community Conflict: Verbal altercation
 https://www.onthesegrounds.org/api/items/484 Labor
 https://www.onthesegrounds.org/api/items/485 Labor: Agricultural
+https://www.onthesegrounds.org/api/items/591 Labor: Artisanal
 https://www.onthesegrounds.org/api/items/486 Labor: Domestic
 https://www.onthesegrounds.org/api/items/487 Labor: Midwifery
-https://www.onthesegrounds.org/api/items/488 Labor: Skilled
+https://www.onthesegrounds.org/api/items/592 Labor: Sex Work
+https://www.onthesegrounds.org/api/items/593 Labor: Teaching assistant
+https://www.onthesegrounds.org/api/items/488 Labor: Skilled [Depricated]
 https://www.onthesegrounds.org/api/items/489 Legal
 https://www.onthesegrounds.org/api/items/490 Legal: Civil case
 https://www.onthesegrounds.org/api/items/491 Legal: Criminal case
 https://www.onthesegrounds.org/api/items/492 Legal: Dowry
 https://www.onthesegrounds.org/api/items/493 Legal: Freedom petition
-https://www.onthesegrounds.org/api/items/494 Legal: Manumission filing
+https://www.onthesegrounds.org/api/items/494 Legal: Manumission registration
 https://www.onthesegrounds.org/api/items/495 Legal: Probate
+https://www.onthesegrounds.org/api/items/594 Legal: Removal hearing
 https://www.onthesegrounds.org/api/items/496 Legal: Tax filing
 https://www.onthesegrounds.org/api/items/497 Legal: Will
-https://www.onthesegrounds.org/api/items/498 Life-course
-https://www.onthesegrounds.org/api/items/499 Life-course: Birth
-https://www.onthesegrounds.org/api/items/500 Life-course: Burial
-https://www.onthesegrounds.org/api/items/501 Life-course: Death
-https://www.onthesegrounds.org/api/items/502 Life-course: Marriage
-https://www.onthesegrounds.org/api/items/585 Life-course: Parenthood
-https://www.onthesegrounds.org/api/items/586 Life-course: Grandparenthood
+https://www.onthesegrounds.org/api/items/498 Life event
+https://www.onthesegrounds.org/api/items/499 Life event: Birth
+https://www.onthesegrounds.org/api/items/500 Life event: Burial
+https://www.onthesegrounds.org/api/items/501 Life event: Death
+https://www.onthesegrounds.org/api/items/502 Life event: Marriage
+https://www.onthesegrounds.org/api/items/585 Life event: Parenthood
+https://www.onthesegrounds.org/api/items/586 Life event: Grandparenthood
 https://www.onthesegrounds.org/api/items/503 Membership or participation
 https://www.onthesegrounds.org/api/items/504 Membership or participation: Fraternal organization
 https://www.onthesegrounds.org/api/items/505 Membership or participation: Military
@@ -68,8 +76,19 @@ https://www.onthesegrounds.org/api/items/526 Resistance
 https://www.onthesegrounds.org/api/items/527 Resistance: Appeal
 https://www.onthesegrounds.org/api/items/528 Resistance: Defense
 https://www.onthesegrounds.org/api/items/529 Resistance: Freedom seeking
+https://www.onthesegrounds.org/api/items/595 Resistance: Property appropriation
 https://www.onthesegrounds.org/api/items/530 Resistance: Property destruction
 https://www.onthesegrounds.org/api/items/531 Resistance: Work slowdown or stoppage
+https://www.onthesegrounds.org/api/items/596 Social interaction
+https://www.onthesegrounds.org/api/items/597 Social interaction: Celebration
+https://www.onthesegrounds.org/api/items/598 Social interaction: Ceremony (attending)
+https://www.onthesegrounds.org/api/items/599 Social interaction: Dancing
+https://www.onthesegrounds.org/api/items/600 Social interaction: Drinking alcohol
+https://www.onthesegrounds.org/api/items/601 Social interaction: Gambling
+https://www.onthesegrounds.org/api/items/602 Social interaction: Games and sports
+https://www.onthesegrounds.org/api/items/604 Social interaciton: Gathering
+https://www.onthesegrounds.org/api/items/605 Social interaction: Music
+https://www.onthesegrounds.org/api/items/606 Social interaction: Visit
 https://www.onthesegrounds.org/api/items/532 Travel
 https://www.onthesegrounds.org/api/items/533 Travel: Importation
 https://www.onthesegrounds.org/api/items/534 Travel: Relocation
