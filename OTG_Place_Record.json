@@ -30,6 +30,22 @@
             ],
             "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
             "vocabulary_label": "OTGEvents",
+            "local_name": "alternateName",
+            "label": "Alternate Name"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
             "local_name": "latitude",
             "label": "Latitude"
         },
