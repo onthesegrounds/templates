@@ -33,8 +33,8 @@ https://www.onthesegrounds.org/api/items/592 Labor: Sex Work
 https://www.onthesegrounds.org/api/items/593 Labor: Teaching assistant
 https://www.onthesegrounds.org/api/items/488 Labor: Skilled [Depricated]
 https://www.onthesegrounds.org/api/items/489 Legal
-https://www.onthesegrounds.org/api/items/490 Legal: Civil case
-https://www.onthesegrounds.org/api/items/491 Legal: Criminal case
+https://www.onthesegrounds.org/api/items/490 Legal: Civil action
+https://www.onthesegrounds.org/api/items/491 Legal: Criminal action
 https://www.onthesegrounds.org/api/items/492 Legal: Dowry
 https://www.onthesegrounds.org/api/items/493 Legal: Freedom petition
 https://www.onthesegrounds.org/api/items/494 Legal: Manumission registration
@@ -95,7 +95,7 @@ https://www.onthesegrounds.org/api/items/534 Travel: Relocation
 https://www.onthesegrounds.org/api/items/535 Travel: Temporary
 https://www.onthesegrounds.org/api/items/536 Violence
 https://www.onthesegrounds.org/api/items/537 Violence: Capture
-https://www.onthesegrounds.org/api/items/538 Violence: Harassment
+https://www.onthesegrounds.org/api/items/538 Violence: Harassment (verbal)
 https://www.onthesegrounds.org/api/items/539 Violence: Jailing
 https://www.onthesegrounds.org/api/items/584 Violence: Perpetrating
 https://www.onthesegrounds.org/api/items/540 Violence: Physical assault
