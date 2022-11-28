@@ -180,6 +180,7 @@ https://lod.enslaved.org/wiki/Q347 Plantation, Estate, or Ranch  ‎
 https://lod.enslaved.org/wiki/Q447 Coordinate 
 https://lod.enslaved.org/wiki/Q13478 Hospital
 https://lod.enslaved.org/wiki/Q124 Unspecified Place Type
+https://www.onthesegrounds.org/api/items/611 College or university
 https://www.onthesegrounds.org/api/items/558 College or university: Administration building 
 https://www.onthesegrounds.org/api/items/559 College or university: Dormitory 
 https://www.onthesegrounds.org/api/items/560 College or university: Instructional building 
