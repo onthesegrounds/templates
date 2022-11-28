@@ -1,9 +1,15 @@
 EVENT TYPES (URI)
 https://www.onthesegrounds.org/api/items/463 Commercial transaction
+https://www.onthesegrounds.org/api/items/607 Commercial transaction: Appraisal
 https://www.onthesegrounds.org/api/items/464 Commercial transaction: Enslaved hire
 https://www.onthesegrounds.org/api/items/465 Commercial transaction: Enslaved loan
 https://www.onthesegrounds.org/api/items/466 Commercial transaction: Services
 https://www.onthesegrounds.org/api/items/467 Commercial transaction: Small goods
+https://www.onthesegrounds.org/api/items/509 Narrative [Depricated]
+https://www.onthesegrounds.org/api/items/608 Communication
+https://www.onthesegrounds.org/api/items/510 Communication: Autobiography
+Communication: Correspondence
+https://www.onthesegrounds.org/api/items/511 Communication: Testimony
 https://www.onthesegrounds.org/api/items/468 Education
 https://www.onthesegrounds.org/api/items/583 Education: Teaching
 https://www.onthesegrounds.org/api/items/469 Freedom status transaction
@@ -33,13 +39,14 @@ https://www.onthesegrounds.org/api/items/592 Labor: Sex Work
 https://www.onthesegrounds.org/api/items/593 Labor: Teaching assistant
 https://www.onthesegrounds.org/api/items/488 Labor: Skilled [Depricated]
 https://www.onthesegrounds.org/api/items/489 Legal
+https://www.onthesegrounds.org/api/items/610 Legal: Agreement
 https://www.onthesegrounds.org/api/items/490 Legal: Civil action
 https://www.onthesegrounds.org/api/items/491 Legal: Criminal action
 https://www.onthesegrounds.org/api/items/492 Legal: Dowry
 https://www.onthesegrounds.org/api/items/493 Legal: Freedom petition
 https://www.onthesegrounds.org/api/items/494 Legal: Manumission registration
 https://www.onthesegrounds.org/api/items/495 Legal: Probate
-https://www.onthesegrounds.org/api/items/594 Legal: Removal hearing
+https://www.onthesegrounds.org/api/items/594 Legal: Removal registration
 https://www.onthesegrounds.org/api/items/496 Legal: Tax filing
 https://www.onthesegrounds.org/api/items/497 Legal: Will
 https://www.onthesegrounds.org/api/items/498 Life event
@@ -55,9 +62,6 @@ https://www.onthesegrounds.org/api/items/505 Membership or participation: Milita
 https://www.onthesegrounds.org/api/items/506 Mention
 https://www.onthesegrounds.org/api/items/507 Mention: Disappearance
 https://www.onthesegrounds.org/api/items/508 Mention: Inventory
-https://www.onthesegrounds.org/api/items/509 Narrative
-https://www.onthesegrounds.org/api/items/510 Narrative: Autobiography
-https://www.onthesegrounds.org/api/items/511 Narrative: Testimony
 https://www.onthesegrounds.org/api/items/512 Provisions
 https://www.onthesegrounds.org/api/items/513 Provisions: Clothing
 https://www.onthesegrounds.org/api/items/514 Provisions: Food
