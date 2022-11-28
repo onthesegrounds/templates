@@ -8,7 +8,7 @@ https://www.onthesegrounds.org/api/items/467 Commercial transaction: Small goods
 https://www.onthesegrounds.org/api/items/509 Narrative [Depricated]
 https://www.onthesegrounds.org/api/items/608 Communication
 https://www.onthesegrounds.org/api/items/510 Communication: Autobiography
-Communication: Correspondence
+https://www.onthesegrounds.org/api/items/609 Communication: Correspondence
 https://www.onthesegrounds.org/api/items/511 Communication: Testimony
 https://www.onthesegrounds.org/api/items/468 Education
 https://www.onthesegrounds.org/api/items/583 Education: Teaching
