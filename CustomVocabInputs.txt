@@ -186,3 +186,4 @@ https://www.onthesegrounds.org/api/items/559 College or university: Dormitory
 https://www.onthesegrounds.org/api/items/560 College or university: Instructional building 
 https://www.onthesegrounds.org/api/items/561 College or university: Quadrangle 
 https://www.onthesegrounds.org/api/items/562 College or university: Sports field
+https://www.onthesegrounds.org/api/items/613 Religious Community
