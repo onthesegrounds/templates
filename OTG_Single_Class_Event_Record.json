@@ -6,6 +6,7 @@
             "o:alternate_comment": null,
             "o:is_required": true,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -22,6 +23,7 @@
             "o:alternate_comment": null,
             "o:is_required": true,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -38,6 +40,7 @@
             "o:alternate_comment": null,
             "o:is_required": true,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "customvocab:1",
@@ -54,6 +57,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -70,6 +74,7 @@
             "o:alternate_comment": null,
             "o:is_required": true,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "customvocab:2",
@@ -86,6 +91,7 @@
             "o:alternate_comment": null,
             "o:is_required": true,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "numeric:timestamp",
@@ -106,6 +112,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "customvocab:3",
@@ -122,6 +129,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -146,10 +154,15 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
                     "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
                 },
                 {
                     "name": "resource:item",
@@ -158,18 +171,23 @@
             ],
             "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
             "vocabulary_label": "OTGEvents",
-            "local_name": "cause",
-            "label": "Cause"
+            "local_name": "precedingEvent",
+            "label": "Preceding Event"
         },
         {
             "o:alternate_label": null,
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
                     "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
                 },
                 {
                     "name": "resource:item",
@@ -178,14 +196,15 @@
             ],
             "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
             "vocabulary_label": "OTGEvents",
-            "local_name": "result",
-            "label": "Outcome"
+            "local_name": "followingEvent",
+            "label": "Following Event"
         },
         {
             "o:alternate_label": null,
             "o:alternate_comment": null,
             "o:is_required": true,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -210,6 +229,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "uri",
@@ -230,6 +250,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -250,6 +271,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -266,6 +288,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "customvocab:4",
@@ -282,6 +305,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -306,6 +330,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -326,6 +351,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -350,6 +376,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -374,6 +401,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -398,6 +426,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -422,6 +451,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -446,6 +476,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -470,6 +501,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -494,7 +526,16 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
                 {
                     "name": "resource:item",
                     "label": "Item"
@@ -502,15 +543,24 @@
             ],
             "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
             "vocabulary_label": "OTGEvents",
-            "local_name": "parentOf",
-            "label": "Parent of"
+            "local_name": "child",
+            "label": "Child"
         },
         {
             "o:alternate_label": null,
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
                 {
                     "name": "resource:item",
                     "label": "Item"
@@ -518,15 +568,24 @@
             ],
             "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
             "vocabulary_label": "OTGEvents",
-            "local_name": "grandparentOf",
-            "label": "Grandparent of"
+            "local_name": "parent",
+            "label": "Parent"
         },
         {
             "o:alternate_label": null,
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
                 {
                     "name": "resource:item",
                     "label": "Item"
@@ -534,15 +593,24 @@
             ],
             "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
             "vocabulary_label": "OTGEvents",
-            "local_name": "spouseOf",
-            "label": "Spouse of"
+            "local_name": "grandparent",
+            "label": "Grandparent"
         },
         {
             "o:alternate_label": null,
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
                 {
                     "name": "resource:item",
                     "label": "Item"
@@ -550,14 +618,40 @@
             ],
             "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
             "vocabulary_label": "OTGEvents",
-            "local_name": "siblingOf",
-            "label": "Sibling of"
+            "local_name": "partner",
+            "label": "Partner"
         },
         {
             "o:alternate_label": null,
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                },
+                {
+                    "name": "uri",
+                    "label": "URI"
+                },
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
+            "vocabulary_label": "OTGEvents",
+            "local_name": "sibling",
+            "label": "Sibling"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -582,6 +676,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -606,6 +701,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -630,6 +726,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -650,6 +747,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -666,6 +764,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -686,6 +785,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -702,6 +802,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -718,6 +819,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -734,6 +836,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -750,6 +853,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -766,6 +870,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -790,6 +895,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -814,6 +920,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -830,6 +937,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -846,6 +954,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -870,6 +979,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -894,6 +1004,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -918,6 +1029,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -942,6 +1054,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",

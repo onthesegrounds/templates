@@ -6,6 +6,7 @@
             "o:alternate_comment": null,
             "o:is_required": true,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -22,6 +23,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -38,6 +40,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -54,6 +57,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -70,6 +74,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -90,6 +95,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -110,6 +116,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -130,6 +137,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -150,6 +158,7 @@
             "o:alternate_comment": null,
             "o:is_required": true,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -166,6 +175,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -182,6 +192,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "customvocab:20",
@@ -198,6 +209,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "uri",
@@ -218,6 +230,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
@@ -238,6 +251,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "uri",
@@ -254,6 +268,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "uri",
@@ -274,6 +289,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "uri",
@@ -294,6 +310,7 @@
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
+            "o:default_lang": null,
             "data_types": [
                 {
                     "name": "literal",
