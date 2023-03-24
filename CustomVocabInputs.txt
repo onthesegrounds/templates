@@ -53,9 +53,9 @@ https://www.onthesegrounds.org/api/items/498 Life event
 https://www.onthesegrounds.org/api/items/499 Life event: Birth
 https://www.onthesegrounds.org/api/items/500 Life event: Burial
 https://www.onthesegrounds.org/api/items/501 Life event: Death
+https://www.onthesegrounds.org/api/items/586 Life event: Grandparenthood
 https://www.onthesegrounds.org/api/items/502 Life event: Marriage
 https://www.onthesegrounds.org/api/items/585 Life event: Parenthood
-https://www.onthesegrounds.org/api/items/586 Life event: Grandparenthood
 https://www.onthesegrounds.org/api/items/503 Membership or participation
 https://www.onthesegrounds.org/api/items/504 Membership or participation: Fraternal organization
 https://www.onthesegrounds.org/api/items/505 Membership or participation: Military
@@ -101,6 +101,7 @@ https://www.onthesegrounds.org/api/items/536 Violence
 https://www.onthesegrounds.org/api/items/537 Violence: Capture
 https://www.onthesegrounds.org/api/items/538 Violence: Harassment (verbal)
 https://www.onthesegrounds.org/api/items/539 Violence: Jailing
+https://www.onthesegrounds.org/api/items/612 Violence: Medical Experimentation
 https://www.onthesegrounds.org/api/items/584 Violence: Perpetrating
 https://www.onthesegrounds.org/api/items/540 Violence: Physical assault
 https://www.onthesegrounds.org/api/items/541 Violence: Postmortem abuse
