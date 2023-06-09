@@ -100,6 +100,10 @@
                 {
                     "name": "numeric:timestamp",
                     "label": "Timestamp"
+                },
+                {
+                    "name": "numeric:interval",
+                    "label": "Interval"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
@@ -121,6 +125,10 @@
                 {
                     "name": "numeric:timestamp",
                     "label": "Timestamp"
+                },
+                {
+                    "name": "numeric:interval",
+                    "label": "Interval"
                 }
             ],
             "vocabulary_namespace_uri": "https:\/\/onthesegrounds.org\/vocab#",
